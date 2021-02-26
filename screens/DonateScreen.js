@@ -2,7 +2,7 @@ import React from 'react';
 import {View, TouchableOpacity, Text, TextInput, StyleSheet, Alert, Modal, ScrollView, KeyboardAvoidingView, FlatList} from 'react-native';
 import db from '../config';
 import {ListItem} from 'react-native-elements'
-import {MyHeader} from '../components/MyHeader'
+import MyHeader from '../components/MyHeader'
 //import SantaAnimation from '../components/Santa.js';
 import firebase from 'firebase';
 
